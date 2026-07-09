@@ -1,0 +1,85 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "on-error": "#690005",
+        "error": "#ffb4ab",
+        "on-secondary": "#520071",
+        "outline-variant": "#3b494b",
+        "outline": "#849495",
+        "primary": "#dbfcff",
+        "on-primary-container": "#006970",
+        "surface": "#131315",
+        "on-surface-variant": "#b9cacb",
+        "secondary": "#ecb2ff",
+        "tertiary": "#faf3ff",
+        "surface-container-lowest": "#0e0e10",
+        "error-container": "#93000a",
+        "background": "#131315",
+        "tertiary-fixed-dim": "#d1bcff",
+        "on-tertiary-fixed": "#23005b",
+        "on-tertiary-container": "#7213ff",
+        "surface-container-high": "#2a2a2c",
+        "on-primary-fixed": "#002022",
+        "surface-variant": "#353437",
+        "on-secondary-fixed-variant": "#74009f",
+        "secondary-fixed": "#f8d8ff",
+        "on-primary-fixed-variant": "#004f54",
+        "surface-container-highest": "#353437",
+        "tertiary-fixed": "#e9ddff",
+        "surface-dim": "#131315",
+        "surface-container": "#201f22",
+        "primary-fixed": "#7df4ff",
+        "on-surface": "#e5e1e4",
+        "secondary-container": "#cf5cff",
+        "inverse-primary": "#006970",
+        "on-secondary-fixed": "#320047",
+        "on-tertiary": "#3c0090",
+        "tertiary-container": "#e1d2ff",
+        "surface-container-low": "#1c1b1d",
+        "inverse-surface": "#e5e1e4",
+        "on-background": "#e5e1e4",
+        "on-primary": "#00363a",
+        "surface-tint": "#00dbe9",
+        "surface-bright": "#39393b",
+        "primary-fixed-dim": "#00dbe9",
+        "on-tertiary-fixed-variant": "#5700c9",
+        "inverse-on-surface": "#313032",
+        "secondary-fixed-dim": "#ecb2ff",
+        "on-error-container": "#ffdad6",
+        "primary-container": "#00f0ff",
+        "on-secondary-container": "#480063"
+      },
+      borderRadius: {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "2xl": "1rem",
+        "3xl": "1.5rem",
+        "full": "9999px"
+      },
+      spacing: {
+        "margin-mobile": "20px",
+        "container-max": "1440px",
+        "unit": "8px",
+        "margin-desktop": "64px",
+        "gutter": "24px"
+      },
+      fontFamily: {
+        sora: ["Sora", "sans-serif"],
+        geist: ["Geist", "sans-serif"],
+        mono: ["Space Mono", "monospace"]
+      },
+      boxShadow: {
+        'neon-primary': '0 0 40px rgba(0, 219, 233, 0.15)',
+        'neon-secondary': '0 0 40px rgba(236, 178, 255, 0.15)',
+      }
+    },
+  },
+  plugins: [],
+}
